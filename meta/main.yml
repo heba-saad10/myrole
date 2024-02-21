@@ -1,0 +1,13 @@
+---
+galaxy_info:
+  author: Your Name
+  description: A role to install and configure the application.
+  company: Your Company
+  min_ansible_version: 2.9
+  platforms:
+    - name: CentOS
+      versions:
+        - 9
+  dependencies:
+    - role: myrole
+
